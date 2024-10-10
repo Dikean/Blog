@@ -13,8 +13,8 @@ import {
   uploadBytesResumable,
   getDownloadURL,
 } from "firebase/storage";
-import { app } from "@/utils/firebase";
 
+import { app } from "@/utils/firebase";
 
 const WritePage = () => {
   const { status } = useSession();
@@ -126,7 +126,7 @@ const WritePage = () => {
             />
             <button className={styles.addButton}>
               <label htmlFor="image">
-                <Image src="/image.png" alt="" width={16} height={16} />
+                <Image src="/logo.png" alt="" width={16} height={16} />
               </label>
             </button>
             <button className={styles.addButton}>
